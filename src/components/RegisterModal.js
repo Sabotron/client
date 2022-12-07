@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../css/Modal.css';
 
 const RegisterModal = (props) => {
-  const postUrl = "http://localhost:3001/user/";
+  const postUrl = "server-production-78e2.up.railway.app/user/";
   const [user, setUser] = useState({
     username: "",
     email: "",
