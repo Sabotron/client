@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+
+.Login {
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(255, 145, 0);
+    width: 40%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+
+.btn_access {
+    font-size: 18px;
+    color: rgb(255, 145, 0);
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 145, 0);
+    border-width: 2px;
+    width: 95px;
+}
+
+.btn_register,
+.btn_back {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 145, 0);
+    border-width: 2px;
+    width: 95px;
+}
+
+.btn_register{
+    width: 140px;
+}
+.texfield {
+    width: 95%;
+    height: auto;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.texfield_date {
+    width: 65%;
+    height: auto;
+    font-size: 20px;
+    margin: auto;
+    margin-right: 0;
+
+    text-align: left;
+    border-radius: 5px;
+}
+
+label {
+    height: auto;
+    font-size:20px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.label-filter{
+    height: auto;
+    font-size:20px;
+    font-family: sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+h1, h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+p,a,label {
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+

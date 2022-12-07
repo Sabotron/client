@@ -1,0 +1,38 @@
+.p-username
+{
+    font-size: 18px;
+    padding: 0 16px;
+    margin: 16px;
+    display: flex;
+    font-weight: bold;
+
+    justify-content: left;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.li-item{
+    margin-right: 10px;
+    padding: 0 5px 0 0px;
+    display: flex;    
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.nav-container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+}
