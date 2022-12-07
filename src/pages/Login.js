@@ -13,7 +13,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [openModal, setOpenModal] = useState(false);
 
-    const BaseUrl = 'http://localhost:3001/user/';
+    const BaseUrl = "https://server-production-78e2.up.railway.app/user/";
 
     function openRegModal() {
         setOpenModal(true);
